@@ -1,0 +1,15 @@
+<div class="experience-card-wrapper">
+  <div *ngFor="let project of openSource.experience"
+    [ngClass]="{'experience-card-dark': isDark, 'experience-card': !isDark}">
+    <div class="project-card">
+      <div class="project-card-content">
+        <h5 class="experience-text-name" [ngClass]="{'dark-mode-text': isDark}">
+          {{ project.name }}
+        </h5>
+        <p class="subTitle experience-text-description" [ngClass]="{'dark-mode-text': isDark}">
+          {{ project.description }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
