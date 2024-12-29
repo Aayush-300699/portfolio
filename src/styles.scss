@@ -38,7 +38,8 @@ For greater control over colors visit each components .scss file. */
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
 // button colors
-$buttonColor: #472D2D;
+$buttonColor: #b25f5f;
+// $buttonColor: #fff8f8;
 $buttonHover: #472D2D;
 $topButtonHover: #000;
 
@@ -54,7 +55,8 @@ $textColorDark: #F8EDE3;
 
 // toggle switch colors
 $toggleCheck: #F8EDE3;
-$toggleSwitchSliderBG: #472D2D;
+// $toggleSwitchSliderBG: #472D2D;
+$toggleSwitchSliderBG: #fff8f8;
 
 // githubRepo specific colors
 $githubRepoCardLanguageColorBG: #0000ff;
@@ -66,7 +68,8 @@ $githubRepoCardRepoNameColor: rgb(36, 41, 46);
 $lightBackground1: #DBD0C0;
 
 // dark background colors
-$darkBackground: #7D6E83;
+// $darkBackground: #7D6E83;
+$darkBackground: #332d36;
 
 // light theme box shadows
 $lightBoxShadowDark: rgba(0, 0, 0, 0.2);

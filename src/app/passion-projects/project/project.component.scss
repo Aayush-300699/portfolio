@@ -2,7 +2,7 @@
 
 .experience-card {
   position: relative;
-  background-color: $lightBackground1;
+  // background-color: $lightBackground1;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
@@ -10,7 +10,7 @@
 
 .experience-card-dark {
   position: relative;
-  background-color: $darkBackground;
+  // background-color: $darkBackground;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
@@ -69,11 +69,15 @@
   text-align: center;
   padding: 1rem;
   margin: 0;
-  color: #53514d;
+  // color: #53514d;
   font-size: 25px;
   font-weight: 700;
   text-overflow: ellipsis;
   overflow: hidden;
+}
+
+.sub-align {
+  text-align: center;
 }
 
 .experience-roundedimg {
@@ -92,7 +96,7 @@
 
 .experience-text-role {
   text-align: center;
-  color: $textColor;
+  // color: $textColor;
   font-weight: 700;
   font-size: 1.2px;
   margin: 0px;
@@ -100,13 +104,9 @@
   line-height: normal;
 }
 
-.dark-mode-text {
-  color: $textColorDark !important;
-}
-
 .experience-text-date {
   text-align: center;
-  color: $textColor;
+  // color: $textColor;
   font-size: 20px;
   margin: 0px;
   padding-top: 1rem;
@@ -124,7 +124,7 @@
 }
 
 .subText {
-  color: $lightBackground1;
+  // color: $lightBackground1;
   font-size: 0.7em;
   font-style: italic;
 }
@@ -171,23 +171,26 @@
   }
 }
 
-.experience-card-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* 3 cards per row */
-  gap: 20px;
-  /* Spacing between cards */
+// .experience-card-wrapper {
+//   display: grid;
+//   grid-template-columns: repeat(3, 1fr);
+//   /* 3 cards per row */
+//   gap: 20px;
+//   /* Spacing between cards */
+//   margin: 20px;
+// }
+
+.experience-card-wrapper>div {
+  flex: 1 1 calc(33.333% - 20px);
+  /* Each card takes one-third of the row, minus the gap */
+  box-sizing: border-box;
   margin: 20px;
+  /* Ensures padding and border are included in width/height */
 }
 
 .experience-card {
-  background-color: #dbd0c0;
+  // background-color: #dbd0c0;
   border-radius: 10px;
   padding: 15px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.experience-card-dark {
-  background-color: #333;
-  color: #fff;
 }

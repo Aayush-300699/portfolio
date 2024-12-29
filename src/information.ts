@@ -256,7 +256,7 @@ const openSource = {
     },
     {
       name: 'Mavenow',
-      description: '',
+      description: 'Designed and implemented course modules for a professional platform, connecting users with industry experts to foster problem-solving skills.',
     }
   ]
 };
