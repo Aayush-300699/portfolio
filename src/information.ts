@@ -229,12 +229,6 @@ const myCorporateJourney = {
   ]
 };
 
-// const openSource = {
-//   showGithubProfile: 'true',
-//   display: true
-// };
-
-
 const openSource = {
   display: true,
   experience: [
@@ -260,54 +254,6 @@ const openSource = {
     }
   ]
 };
-
-// Achievement Section
-// Include certificates, talks etc
-// const achievementSection = {
-//   title: 'Achievements And Certifications 🏆 ',
-//   subtitle:
-//     'Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !',
-
-//   achievementsCards: [
-//     {
-//       title: 'Radiant Award',
-//       subtitle:
-//         'For becoming the superhero of the project',
-//       image: "../../assets/images/radiant.png",
-//       imageAlt: 'Radiant Award',
-//       footerLink: [
-//         {
-//           name: 'Award Letter',
-//           url: 'https://drive.google.com/'
-//         }
-//       ]
-//     },
-//     {
-//       title: 'Design and Analysis of Algorithms',
-//       subtitle:
-//         'Topper - Top 5% - NPTEL online certification course - Design and analysis of algorithms - IIT Madras',
-//       image: "../../assets/images/nptel.jpg",
-//       imageAlt: 'NPTEL certificate',
-//       footerLink: [
-//         {
-//           name: 'View certificate',
-//           url: 'https://drive.google.com/'
-//         }
-//       ]
-//     },
-
-//     {
-//       title: 'CS50 Course',
-//       subtitle: 'Completed Online CS50 course from Harvard in 2021',
-//       image: "../../assets/images/cs50.png",
-//       imageAlt: 'CS50',
-//       footerLink: [
-//         { name: 'Certificate of completion', url: 'https://drive.google.com/' }
-//       ]
-//     }
-//   ],
-//   display: true
-// };
 
 const achievementSection = {
   title: 'Achievements And Certifications 🏆 ',

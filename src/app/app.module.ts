@@ -48,6 +48,7 @@ import { EducationCardComponent } from './education/education-card/education-car
     MaterialModule,
     HttpClientModule
   ],
+  schemas: [],
   providers: [],
   bootstrap: [AppComponent]
 })
